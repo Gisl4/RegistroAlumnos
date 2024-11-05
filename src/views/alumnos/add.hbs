@@ -1,0 +1,42 @@
+<div class="container p-4">
+    <div class="row">
+        <div class="col-md-4 mx-auto">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3 class="text-uppercase">CREAR NUEVO ALUMNO</h3>
+                </div>
+                <div class="card-body">
+                  <form action="/add" method="post">
+                        <div class="input-group mt-2">
+                            <label for="name" class="input-group-text">Nombre</label>
+                            <input class="form-control" type="text" name="name" id="name" placeholder="Ejemplo: Gisell" autofocus required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="lastname" class="input-group-text">Apellidos</label>
+                            <input class="form-control" type="text" name="lastname" id="lastname" placeholder="Ejemplo: Lopez Rosado" required>
+                        </div>
+                         <div class="input-group mt-2">
+                            <label for="birthdate" class="input-group-text">Fecha de Nacimiento</label>
+                            <input class="form-control" type="date" name="birthdate" id="birthdate" placeholder="0" required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="address" class="input-group-text">Dirección</label>
+                            <input class="form-control" type="text" name="address" id="address" required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="phone" class="input-group-text">Móvil</label>
+                            <input class="form-control" type="tel" name="phone" id="phone" required>
+                        </div>
+                        <div class="input-group mt-2">
+                            <label for="email" class="input-group-text">Email</label>
+                            <input class="form-control" type="email" name="email" id="email" placeholder="Ejemplo: correo@dominio.com" required>
+                        </div>
+                        <div class="form-group mt-4 d-grid gap-2">
+                            <button class="btn btn-success"> Crear </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

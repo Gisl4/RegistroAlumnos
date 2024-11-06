@@ -7,6 +7,12 @@ Este proyecto es una aplicación Node.js que utiliza MySQL como base de datos pa
 - Node.js (versión recomendada: >= 14)
 - MySQL Server
 
+## Comandos Útiles
+
+- Para iniciar MySQL:
+  ```bash
+  mysql -u root -p
+
 ## Instalación
 
 1. **Clonar el repositorio**

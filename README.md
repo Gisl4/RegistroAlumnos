@@ -52,7 +52,7 @@ Este proyecto es una aplicación CRUD construida con Node.js en el backend y MyS
        npm run dev
 
 ## CRUD en Node.js y MySQL
-   Esta es una aplicación básica CRUD (Crear, Leer, Actualizar, Eliminar) que utiliza Node.js en el backend y MySQL como base de datos para almacenar y gestionar la información de los alumnos.
+   Esta es una aplicación básica que utiliza Node.js en el backend y MySQL como base de datos para almacenar y gestionar la información de los alumnos.
 
 ## Comandos Útiles
    ```bash

@@ -21,4 +21,5 @@ Este proyecto es una aplicación Node.js que utiliza MySQL como base de datos pa
    npm run dev   (Inicia el servidor en modo de desarrollo.)
 
 ## Links
-bootstrap 4 theme
+[Bootstrap 4 Theme](https://getbootstrap.com/docs/4.0/getting-started/introduction/)
+
